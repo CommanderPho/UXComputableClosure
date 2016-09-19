@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71E3C511D8F141E00867EE0 /* UXComputableWorkflowProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71E3C501D8F141E00867EE0 /* UXComputableWorkflowProtocol.swift */; };
+		D741B5261D8CD95A00FEA5C1 /* UXComputingRowTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D741B5251D8CD95A00FEA5C1 /* UXComputingRowTemplate.swift */; };
+		D741B5281D8D008500FEA5C1 /* vcComputingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D741B5271D8D008500FEA5C1 /* vcComputingController.swift */; };
+		D741B52B1D8D009F00FEA5C1 /* OldViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D741B5291D8D009F00FEA5C1 /* OldViewController.storyboard */; };
+		D741B52D1D8D04DF00FEA5C1 /* vcBasicComputeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D741B52C1D8D04DF00FEA5C1 /* vcBasicComputeRow.swift */; };
+		D741B52F1D8D206000FEA5C1 /* tcvOperatorSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D741B52E1D8D206000FEA5C1 /* tcvOperatorSelection.swift */; };
 		D782DE131D8C822A009F0139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782DE121D8C822A009F0139 /* AppDelegate.swift */; };
 		D782DE151D8C822A009F0139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782DE141D8C822A009F0139 /* ViewController.swift */; };
 		D782DE171D8C822A009F0139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D782DE161D8C822A009F0139 /* Assets.xcassets */; };
 		D782DE1A1D8C822A009F0139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D782DE181D8C822A009F0139 /* Main.storyboard */; };
+		D782DE221D8C8461009F0139 /* ComputableClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D782DE211D8C8461009F0139 /* ComputableClosure.swift */; };
+		D7B6CFEB1D8F9F11002E831B /* vCursorOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B6CFEA1D8F9F11002E831B /* vCursorOverlay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D71E3C501D8F141E00867EE0 /* UXComputableWorkflowProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXComputableWorkflowProtocol.swift; sourceTree = "<group>"; };
+		D741B5251D8CD95A00FEA5C1 /* UXComputingRowTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UXComputingRowTemplate.swift; sourceTree = "<group>"; };
+		D741B5271D8D008500FEA5C1 /* vcComputingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcComputingController.swift; sourceTree = "<group>"; };
+		D741B52A1D8D009F00FEA5C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/OldViewController.storyboard; sourceTree = "<group>"; };
+		D741B52C1D8D04DF00FEA5C1 /* vcBasicComputeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcBasicComputeRow.swift; sourceTree = "<group>"; };
+		D741B52E1D8D206000FEA5C1 /* tcvOperatorSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tcvOperatorSelection.swift; sourceTree = "<group>"; };
 		D782DE0F1D8C822A009F0139 /* UXComputableClosure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UXComputableClosure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D782DE121D8C822A009F0139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D782DE141D8C822A009F0139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D782DE161D8C822A009F0139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D782DE191D8C822A009F0139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D782DE1B1D8C822A009F0139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D782DE211D8C8461009F0139 /* ComputableClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputableClosure.swift; sourceTree = "<group>"; };
+		D7B6CFEA1D8F9F11002E831B /* vCursorOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vCursorOverlay.swift; sourceTree = "<group>"; };
+		D7B6CFEC1D8FA2AE002E831B /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +69,19 @@
 		D782DE111D8C822A009F0139 /* UXComputableClosure */ = {
 			isa = PBXGroup;
 			children = (
+				D741B5251D8CD95A00FEA5C1 /* UXComputingRowTemplate.swift */,
 				D782DE121D8C822A009F0139 /* AppDelegate.swift */,
 				D782DE141D8C822A009F0139 /* ViewController.swift */,
+				D741B5271D8D008500FEA5C1 /* vcComputingController.swift */,
 				D782DE161D8C822A009F0139 /* Assets.xcassets */,
+				D7B6CFEC1D8FA2AE002E831B /* EditorView.swift */,
 				D782DE181D8C822A009F0139 /* Main.storyboard */,
+				D71E3C501D8F141E00867EE0 /* UXComputableWorkflowProtocol.swift */,
+				D7B6CFEA1D8F9F11002E831B /* vCursorOverlay.swift */,
+				D741B52E1D8D206000FEA5C1 /* tcvOperatorSelection.swift */,
+				D741B5291D8D009F00FEA5C1 /* OldViewController.storyboard */,
+				D741B52C1D8D04DF00FEA5C1 /* vcBasicComputeRow.swift */,
+				D782DE211D8C8461009F0139 /* ComputableClosure.swift */,
 				D782DE1B1D8C822A009F0139 /* Info.plist */,
 			);
 			path = UXComputableClosure;
@@ -123,6 +149,7 @@
 			files = (
 				D782DE171D8C822A009F0139 /* Assets.xcassets in Resources */,
 				D782DE1A1D8C822A009F0139 /* Main.storyboard in Resources */,
+				D741B52B1D8D009F00FEA5C1 /* OldViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,14 +160,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D741B5281D8D008500FEA5C1 /* vcComputingController.swift in Sources */,
+				D782DE221D8C8461009F0139 /* ComputableClosure.swift in Sources */,
+				D741B52D1D8D04DF00FEA5C1 /* vcBasicComputeRow.swift in Sources */,
 				D782DE151D8C822A009F0139 /* ViewController.swift in Sources */,
+				D741B5261D8CD95A00FEA5C1 /* UXComputingRowTemplate.swift in Sources */,
+				D7B6CFEB1D8F9F11002E831B /* vCursorOverlay.swift in Sources */,
+				D741B52F1D8D206000FEA5C1 /* tcvOperatorSelection.swift in Sources */,
 				D782DE131D8C822A009F0139 /* AppDelegate.swift in Sources */,
+				D71E3C511D8F141E00867EE0 /* UXComputableWorkflowProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D741B5291D8D009F00FEA5C1 /* OldViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D741B52A1D8D009F00FEA5C1 /* Base */,
+			);
+			name = OldViewController.storyboard;
+			sourceTree = "<group>";
+		};
 		D782DE181D8C822A009F0139 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +331,7 @@
 				D782DE201D8C822A009F0139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
